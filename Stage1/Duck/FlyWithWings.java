@@ -1,4 +1,4 @@
-package example;
+package Duck;
 
 public class FlyWithWings implements FlyBehavior{
     @Override
