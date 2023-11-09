@@ -1,8 +1,8 @@
 fun main() {
-    var myduck = kakaoDuck()
-    var myturkey = kakaoTurkey()
+    var myduck: Duck = kakaoDuck()
+    var myturkey: Turkey = kakaoTurkey()
 
-    var spy = TurkeyToDuckAdaptor(myturkey)
+    var spy: Duck = TurkeyToDuckAdaptor(myturkey)
 
     myduck.quack()
     myturkey.fly()

@@ -1,4 +1,4 @@
-class TurkeyToDuckAdaptor(private var turkey: kakaoTurkey) : Duck {
+class TurkeyToDuckAdaptor(private var turkey: Turkey) : Duck {
     override fun quack() {
         return turkey.golgol()
     }
