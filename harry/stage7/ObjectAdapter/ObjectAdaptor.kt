@@ -1,3 +1,5 @@
+package ObjectAdapter
+
 fun main() {
     var myduck: Duck = kakaoDuck()
     var myturkey: Turkey = kakaoTurkey()

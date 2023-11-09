@@ -1,3 +1,5 @@
+package ObjectAdapter
+
 class kakaoDuck : Duck {
     override fun quack(): Unit {
         println("Duck is Quack!")

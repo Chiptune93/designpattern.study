@@ -1,3 +1,5 @@
+package ObjectAdapter
+
 class kakaoTurkey : Turkey {
 
     override fun golgol(): Unit {

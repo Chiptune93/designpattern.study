@@ -1,3 +1,5 @@
+package ObjectAdapter
+
 interface Turkey {
 
     fun golgol(): Unit
