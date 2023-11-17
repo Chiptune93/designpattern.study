@@ -1,0 +1,23 @@
+fun main() {
+
+    println("== 국내 주식 거래 User1 <수수료 부과, 세금 없음> == ")
+    val user1 = KoreanUserStockIn(ChargeKinds.COMMON, TaxKinds.NO_TAX)
+    user1.execute()
+    println("============================== ")
+    println("== 국내 주식 거래 User2 <수수료 없음, 세금 있음> == ")
+    val user2 = KoreanUserStockIn(ChargeKinds.NO_CHARGE, TaxKinds.FULL_TAX)
+    user2.execute()
+    println("============================== ")
+    println("== 해외 주식 거래 User3 <수수료 부과, 세금 있음> == ")
+    val user3 = AmericanUserStockIn(ChargeKinds.COMMON, TaxKinds.FULL_TAX)
+    user3.execute()
+    println("============================== ")
+    println("== 해외 주식 거래 User4 <수수료 없음, 세금 없음> == ")
+    val user4 = AmericanUserStockIn(ChargeKinds.NO_CHARGE, TaxKinds.NO_TAX)
+    user4.execute()
+    println("============================== ")
+    println("== 국내 주식 거래 User5 <수수료 없음, 세금 있음> == ")
+    val user5 = KoreanUserStockIn(ChargeKinds.NO_CHARGE, TaxKinds.COMMON)
+    user5.execute()
+    println("============================== ")
+}
