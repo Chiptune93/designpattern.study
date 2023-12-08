@@ -1,0 +1,4 @@
+interface Image  {
+    fun send()
+}
+
